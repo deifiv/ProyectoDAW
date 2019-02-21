@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ejercico Dieta DOM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            #contenedor{
+                width: 900px;
+                height: 900px;
+                
+            }
+            table, th, td{
+                border: 3px solid green;
+                border-collapse: collapse;
+            }
+            th{
+                color: red;
+            }
+
+            table{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                
+            }
+        </style>
+        <script type="text/javascript" src="dieta.js"></script>
+    </head>
+    <body>
+        <div id="contenedor">
+            <label>Recetas</label>
+            <select id="recetas">
+                <option>Papillote de salmón</option>
+                <option>Ensalada de tomate con queso y oregano</option>
+                <option>Espirales con alcachofas</option>
+                <option>Salteado de setas y puerros</option>
+                <option>Coliflor con ajo y almendras</option>
+                <option>Esparragos verdes con garbanzos</option>
+            </select>
+            <input type="button" value="Ver receta" id="ver_receta"/>
+            <input type="checkbox" id="casilla_borrar"/>
+            <label>Borrar celda</label>
+            <table>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <a href="Recetas/Papillote de salmón.txt" target="_blank">Papillote de salmón</a>
+                        </p>
+                        <p>
+                            <a href="Recetas/Ensalada de tomate con queso y oregano.txt" target="_blank">Ensalada de tomate con queso y oregano</a>
+                        </p>
+
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Ensalada de tomate con queso y oregano.txt" target="_blank">Ensalada de tomate con queso y oregano</a>
+                        </p>
+
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Espirales con alcachofas.txt" target="_blank">Espirales con alcachofas</a>
+                        </p>
+                        <p>
+                            <a href="Recetas/Salteado de setas y puerros.txt" target="_blank">Salteado de setas y puerros</a>
+                        </p>
+                        <p>
+                            <a href="Recetas/Coliflor con ajo y almendras.txt" target="_blank">Coliflor con ajo y almendras</a>
+                        </p>
+
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Espirales con alcachofas.txt" target="_blank">Espirales con alcachofas</a>
+                        </p>
+                        <p>
+
+                            <a href="Recetas/Salteado de setas y puerros.txt" target="_blank">Salteado de setas y puerros</a>
+                        </p>
+                        <p>
+
+                            <a href="Recetas/Coliflor con ajo y almendras.txt" target="_blank">Coliflor con ajo y almendras</a>                    
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Esparragos verdes con garbanzos.txt" target="_blank">Esparragos verdes con garbanzos</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <a href="Recetas/Espirales con alcachofas.txt" target="_blank">Espirales con alcachofas</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Salteado de setas y puerros.txt" target="_blank">Salteado de setas y puerros</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Ensalada de tomate con queso y oregano.txt" target="_blank">Ensalada de tomate con queso y oregano</a>
+                        </p>
+                        <p>
+
+                            <a href="Recetas/Salteado de setas y puerros.txt" target="_blank">Salteado de setas y puerros</a>
+                        </p>
+                        <p>
+                            <a href="Recetas/Esparragos verdes con garbanzos.txt" target="_blank">Esparragos verdes con garbanzos</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Papillote de salmón.txt" target="_blank">Papillote de salmón</a>
+                        </p>
+                    </td>
+
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <a href="Recetas/Salteado de setas y puerros.txt" target="_blank">Salteado de setas y puerros</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Papillote de salmón.txt" target="_blank">Papillote de salmón</a>
+                        </p>
+                        <p>
+
+                            <a href="Recetas/Espirales con alcachofas.txt" target="_blank">Espirales con alcachofas</a>
+                        </p>
+                        <p>
+
+                            <a href="Recetas/Coliflor con ajo y almendras.txt" target="_blank">Coliflor con ajo y almendras</a>
+                        </p>
+                    </td>
+                    <td></td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Esparragos verdes con garbanzos.txt" target="_blank">Esparragos verdes con garbanzos</a>
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            <a href="Recetas/Ensalada de tomate con queso y oregano.txt" target="_blank">Ensalada de tomate con queso y oregano</a>
+                        </p>
+                        <p>
+                            <a href="Recetas/Espirales con alcachofas.txt" target="_blank">Espirales con alcachofas</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <fieldset>
+                <legend>Propiedades de la tabla</legend>
+                <input type="button" value="Añadir fila" id="añadir_fila"/>
+                <label>Tipo de letra</label>
+                <select id="tipos_letras">
+                    <option>Elija un tipo de letra</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Agency FB">Agency FB</option>
+                    <option value="Comic Sans MS">Comic Sans MS</option>
+                    <option value="Helvetica">Helvetica</option>
+                </select>
+                <label>Color de letra</label>
+                <select id="colores">
+                    <option>Elija un color</option>
+                    <option value="red">Rojo</option>
+                    <option value="green">Verde</option>
+                    <option value="blue">Azul</option>
+                    <option value="orange">Naranja</option>
+                    <option value="brown">Marrón</option>
+                </select>
+                <input type="button" value="Guardar preferencias" id="guardar_preferencias"/>
+            </fieldset>
+        </div>
+    </body>
+</html>
